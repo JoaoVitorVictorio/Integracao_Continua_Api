@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: br.tasks.apitest.APITest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.472 s -- in br.tasks.apitest.APITest

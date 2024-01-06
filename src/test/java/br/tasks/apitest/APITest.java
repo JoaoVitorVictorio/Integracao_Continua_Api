@@ -31,5 +31,4 @@ public class APITest {
 				.contentType(ContentType.JSON).when().post("/todo").then().statusCode(400)
 				.body("message", CoreMatchers.is("Due date must not be in past"));
 	}
-	
 }
