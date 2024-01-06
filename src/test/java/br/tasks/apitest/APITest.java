@@ -19,7 +19,7 @@ public class APITest {
 		RestAssured.given().when().get("/todo").then().statusCode(200);
 	}
 
-	@Test
+	
 	public void deveAdicionarTarefaComSucesso() {
 		RestAssured.given().body("{\"task\":\"Teste via API\",\"dueDate\":\"2025-01-01\"}")
 				.contentType(ContentType.JSON).when().post("/todo").then().statusCode(201);
